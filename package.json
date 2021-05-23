@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Kwerrell73/jest-another-RPG#readme",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.0"
   }
 }
